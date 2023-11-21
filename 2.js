@@ -19,6 +19,9 @@ enlaces.forEach(function(enlace) {
       }
 });
 
+var urlActual = window.location.href;
+console.log("URL actual: " + urlActual);
+
   function eliminarElementoPorId(id) {
       var elementoAEliminar = document.getElementById(id);
 
